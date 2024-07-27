@@ -10,3 +10,6 @@ console.log(valueInNumber)//NaN means not a number
 // "33" => 33
 //"33abc" => NaN
 //true =>1 ,false =>0
+let someNumber=33
+let stringNumber=String(someNumber)
+console.log(typeof stringNumber)//string
