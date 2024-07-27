@@ -13,3 +13,15 @@ console.log(valueInNumber)//NaN means not a number
 let someNumber=33
 let stringNumber=String(someNumber)
 console.log(typeof stringNumber)//string
+//************************************operations********************
+
+let str1="hello"
+let str2=" Abhay"
+let str3=str1 + str2
+console.log(str3) // hello Abhay
+
+
+console.log("1"+2)//12
+console.log(1+"2")//12
+console.log("1"+2+2)//122
+console.log(1+2+"2")//32
