@@ -33,3 +33,29 @@ const myFunction =function(){
 }
 
 console.log(typeof myFunction);
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// memory allocation
+
+//stack(primitive) And heap(NonPrimitive)
+
+let myYoutubeName="AbhayYadavdotcom"
+let anotherName=myYoutubeName
+
+console.log(anotherName)
+
+anotherName="chaiaurcode"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+//array
+let userOne={
+    email:"abhay@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email="yadav@yahoo.com"
+console.log(userOne.email)
