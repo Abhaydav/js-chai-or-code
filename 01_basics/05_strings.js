@@ -25,3 +25,10 @@ const newStringOne="    Hitesh   "
 console.log(newStringOne) //its having space 
 //to remove spaces we use this
 console.log(newStringOne.trim()) //spaces removed
+
+//  ++++++++++++++++++++  URL  ++++++++++++++++++++++++++++++
+
+const url="https://hitesh.com/hitesh%20choudhary";
+console.log(url.replace('%20','-')); //to replace anything in string
+
+console.log(url.includes('hitesh'))
