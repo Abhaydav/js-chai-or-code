@@ -23,8 +23,15 @@ console.log(jsUser[mySym])//this is used to call symbol value
 jsUser.email="hitesh@chatgpt.com"//to modify in object
 console.log(jsUser.email)
 //to stop modification in object e use freeze
-Object.freeze(jsUser)
+//Object.freeze(jsUser)
 jsUser.email="hitesh@microsoft.com"
-console.log(jsUser.email)
+//console.log(jsUser.email)
+
+jsUser.greeting=function(){
+    console.log("Hello js user");
+
+}
+console.log(jsUser.greeting())
+console.log(jsUser)
 
 
