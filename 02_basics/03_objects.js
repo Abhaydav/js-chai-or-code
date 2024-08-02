@@ -28,7 +28,7 @@ jsUser.email="hitesh@microsoft.com"
 //console.log(jsUser.email)
 
 jsUser.greeting=function(){
-    console.log("Hello js user");
+    console.log("Hello js user")
 
 }
 console.log(jsUser.greeting())
