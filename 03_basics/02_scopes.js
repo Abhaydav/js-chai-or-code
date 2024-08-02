@@ -64,7 +64,7 @@ function addone(num){
     return num+1
 }
 
-//console.log(addTwo(5)) //here we cant its called hoisting
+//console.log(addTwo(5)) //here we cant its called hoisting 
 const addTwo=function (num){
     return num+2
 }
