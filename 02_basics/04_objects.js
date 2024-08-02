@@ -70,3 +70,14 @@ const {courseInstructor:instructor}=course
 
 console.log(instructor)
 
+{
+    "name":"hitesh",
+    "courseName":"js in hindi",
+    "price":"free"
+}
+
+[
+    {},
+    {},
+    {}
+]
