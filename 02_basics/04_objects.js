@@ -64,8 +64,8 @@ const course={
 console.log(course)
 //console.log(course.courseInstructor)//instead of accessing like that we do destrucuture
 
-const {courseInstructor}=course
+const {courseInstructor:instructor}=course
 //now we can directly access the 
 
-console.log(courseInstructor)
+console.log(instructor)
 
