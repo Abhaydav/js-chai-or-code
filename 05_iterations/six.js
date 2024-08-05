@@ -12,5 +12,13 @@ const books=[
 // const userBooks=books.filter((bk)=> bk.genre==="History")
 // console.log(userBooks);
 
-const userBooks=books.filter((bk)=> bk.genre==="History" && bk.publish==="1981")
+// const userBooks=books.filter((bk)=> bk.genre==="History" && bk.publish==="1981")
+// console.log(userBooks);
+
+
+// if we use more than one line and opens scope we have to use return
+const userBooks=books.filter((bk)=> {
+    return bk.genre==="History" && bk.publish==="1981"}
+)
 console.log(userBooks);
+
